@@ -1,7 +1,7 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom center;
     background-size: cover;
     height: 813px;
 }
@@ -41,4 +41,20 @@ text-shadow: 1px 2px 1px #e5ded0;
  .mob{
     display: none;
  }
+}
+/* Game Concept */
+.title-container{
+    margin-top: -1px;
+    padding: 48px 10px 16px;
+    background: #1a2f20;
+}
+@media only screen and (min-width: 1440px) {
+.title-container {
+padding: 56px 10px 16px;
+}
+.game-text{
+    width: 994px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
