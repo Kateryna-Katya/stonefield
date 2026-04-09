@@ -58,3 +58,37 @@ padding: 56px 10px 16px;
     margin-right: auto;
 }
 }
+/* Gameplay Structure */
+.core-swiper .swiper-slide{
+border: 1px solid #938a79;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    height: 258px;
+    background: #bfb5a4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.core-swiper .swiper-slide p{
+    font-family: "Source Sans 3", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+        color: #101d14;
+        width: 130px;
+}
+@media only screen and (min-width: 1440px) {
+.core-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 32px;
+}
+.core-swiper .swiper-slide{
+        height: 264px;
+}
+.core-swiper .swiper-slide p{
+    font-size: 16px;
+}
+}
