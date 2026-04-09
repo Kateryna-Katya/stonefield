@@ -32,7 +32,7 @@ function initSwipers() {
   if (!gallerySwiper) {
     gallerySwiper = new Swiper('.gallery-swiper', {
       modules: [Navigation, Autoplay],
-      slidesPerView: 1.1,
+      slidesPerView: 1.2,
       spaceBetween: 16,
       loop: true,
       autoplay: {
@@ -45,7 +45,7 @@ function initSwipers() {
 
       breakpoints: {
         1440: {
-          slidesPerView: 2,
+          slidesPerView: 3.3,
           spaceBetween: 24,
         }
       }
