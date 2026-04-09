@@ -1,0 +1,44 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 813px;
+}
+.home-title{
+    margin-top: 50px;
+    font-family: "Cinzel", sans-serif;
+font-weight: 700;
+font-size: 32px;
+text-transform: uppercase;
+text-align: center;
+color: #101d14;
+text-shadow: 1px 2px 1px #e5ded0;
+}
+.home-text{
+    margin-top: 16px;
+    font-family: "Cinzel", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        color: #101d14;
+text-shadow: 1px 2px 1px #e5ded0;
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+    background-image: url("/img/home/desk.png");
+    height: 829px;
+ }
+ .home-title{
+    margin-top: 80px;
+    font-size: 48px;
+ }
+ .home-text{
+    margin-top: 8px;
+    font-size: 20px;
+ }
+ .mob{
+    display: none;
+ }
+}

@@ -2,14 +2,14 @@
 .container {
   max-width: 375px;
   margin: 0 auto;
-  padding: 64px 16px;
+  padding: 48px 16px 56px;
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding: 80px 120px;
+    padding: 56px 120px;
   }
 
 }
