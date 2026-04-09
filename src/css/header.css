@@ -41,7 +41,7 @@ background: #1a2f20;
   height: auto;
   z-index: 1000;
   position: fixed;
-  top: 52px;
+  top: 48px;
   left: 50%;
   transform: translateX(-50%);
   transition: visibility 0.3s ease;
