@@ -374,3 +374,36 @@ font-family: "Source Sans 3", sans-serif;
         font-size: 16px;
     }
 }
+/* Contact */
+.contact-section {
+    background-color: #719bd6;
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 144px;
+height: 321px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #101d14;
+}
+
+@media only screen and (min-width: 1440px) {
+    .contact-section {
+        background-image: url("/img/contact/desk.png");
+        background-size: 100% 333px;
+height: 541px;
+    }
+
+    .contact-link {
+font-size: 16px;
+    }
+}
