@@ -94,13 +94,14 @@ border: 1px solid #938a79;
 }
 /* Key Gameplay Elements */
 .key-section{
-    background-image: url("/img/key/mob.png");
-    background-repeat: no-repeat;
-    background-position: top 133px center;
-    background-size: 100% 258px;
+    background-image: url("/img/key/mob.png"), url("/img/key/mob-two.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 133px center, bottom 56px center;
+    background-size: 100% 258px, 100% 258px;
+    height: 1121px;
 }
 .key-list{
-    margin-top: 260px;
+    margin-top: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,4 +124,30 @@ gap: 8px;
         font-size: 14px;
         color: #f4f1ea;
         width: 255px;
+}
+@media only screen and (min-width: 1440px) {
+ .key-section{
+    background-color: #ace2ff;
+    background-image: url("/img/key/desk.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 495px;
+    height: 838px;
+ }
+ .key-list{
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+ }
+ .key-item{
+    padding: 24px;
+        width: 190px;
+        height: 136px;
+        flex-direction: column;
+ }
+ .key-item p{
+    width: 142px;
+    font-size: 16px;
+ }
 }
