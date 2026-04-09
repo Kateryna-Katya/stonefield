@@ -69,7 +69,6 @@ font-family: "Source Sans 3", sans-serif;
 
 @media screen and (min-width: 1439px) {
     .cookie-popup {
-        background-image: url("/img/cookies/desk.png");
         padding: 64px 185px;
         height: 162px;
     }
